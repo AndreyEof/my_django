@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+MD
+{% endblock %}
+
+{% block content %}
+    <h1>Create ticket</h1>
+    <form method="post">
+        <input type="text" placeholder="Enter name" class="form-control"><br>
+        <textarea placeholder="Enter discription" class="form-control"></textarea><br>
+        <button type="submit" class="btn btn-success">Add</button>
+    </form>
+{% endblock %}
