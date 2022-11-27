@@ -20,5 +20,5 @@ from T3.views import home
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
-    path('main', include('main.urls'))
+    path('main/', include('main.urls'))
 ]

@@ -27,3 +27,6 @@ def create_ticket(request):
         'error': error
     }
     return render(request, 'main/create_ticket.html', context)
+
+def thanks_page(request):
+    return render(request, 'main/thanks_page.html')
